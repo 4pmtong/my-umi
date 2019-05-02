@@ -17,4 +17,5 @@
 .umi
 .umi-production
 
-speed-measure.json
+# analyze
+/speed-measure.json
