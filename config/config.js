@@ -4,9 +4,12 @@ import pageRoutes from './router.config';
 const plugins = [
   // ref: https://umijs.org/plugin/umi-plugin-react.html
   ['umi-plugin-react', {
-    antd: true,
+    // antd: true,
     dva: true,
-    dynamicImport: { webpackChunkName: true },
+    dynamicImport: {
+      webpackChunkName: true,
+      // loadingComponent: './components/PageLoading/index',
+    },
     title: 'umi-project-app',
     dll: true,
     locale: {
