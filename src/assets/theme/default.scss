@@ -1,0 +1,38 @@
+/*
+  ======================================================================
+                        Global Variable declaration
+  ======================================================================
+*/
+
+/* ============= color =============== */
+$themeColor: #2d72d9;
+
+$bgColor: #f3f3f3;
+
+$white: #fff;
+$black: #000;
+
+/* ============= fontSize =============== */
+$font12: 12px;
+$font14: 14px;
+$font16: 16px;
+$font18: 18px;
+$font20: 20px;
+$font24: 24px;
+$font28: 28px;
+$font32: 32px;
+
+$font12rem: .12rem;
+
+/* ============= fontFamily =============== */
+$font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
+$code-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+
+
+/* ============= padding =============== */
+$padding-lg: 24px; // containers
+$padding-md: 16px; // small containers and buttons
+$padding-sm: 12px; // Form controls and items
+$padding-xs: 8px; // small items

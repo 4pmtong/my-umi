@@ -1,8 +1,10 @@
-import './index.scss';
+import React from 'react';
 
-function BasicLayout(props) {
+import './BasicLayout.scss';
+
+const BasicLayout = (props) => {
   return (
-    <div className='normal'>
+    <div className='header'>
       <h1 className='title'>Yay! Welcome to umi!</h1>
       {props.children}
     </div>
