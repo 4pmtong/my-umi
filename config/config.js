@@ -1,5 +1,6 @@
 // ref: https://umijs.org/config/
 import pageRoutes from './router.config';
+// import webpackPlugin from './plugin.config';
 
 const plugins = [
   // ref: https://umijs.org/plugin/umi-plugin-react.html
@@ -36,4 +37,8 @@ export default {
   },
   // 路由配置
   routes: pageRoutes,
+  proxy: {
+    '/api': 'http://localhost:9090',
+  },
+  // chainWebpack: webpackPlugin,
 }
