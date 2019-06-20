@@ -1,21 +1,20 @@
 import React from 'react';
-// import Header from 'continens-UI/lib/Header.js';
-import Header from 'continens-UI/lib/Header/index.js';
-// import Header from 'continens-UI/components/Header';
+import { Layout, Menu } from 'antd';
 
 import './BasicLayout.scss';
 
+const { Header, Content, Footer } = Layout;
+
 const BasicLayout = (props) => {
   return (
-    <div className='header'>
-      <Header
-        style={{}}
-        title='Insight Portal'
-        user={{ userName: 'tong.chen' }}
-        avatarMenus={[{ name: 'Logout', id: 'logout' }]}
-        onClickAvatarItem={() => {}}
-      />
-      {props.children}
+    <div>
+      <Header tyle={{ position: 'fixed', zIndex: 1, width: '100%' }}>
+        header
+      </Header>
+      <Content>
+        {props.children}
+      </Content>
+      <Footer style={{ textAlign: 'center' }}>Dracarys@sHackathon Sea 2019</Footer>
     </div>
   );
 }

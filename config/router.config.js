@@ -23,20 +23,6 @@ export default [
       }
     ]
   },
-  // old app
-  {
-    path: '/old',
-    component: '../layouts/BlankLayout',
-    routes: [
-      // old dashboard
-      { path: '/old', redirect: '/old/dashboard' },
-      {
-        path: '/old/dashboard',
-        name: 'old-dashboard',
-        component: './OldDashboard',
-      },
-    ],
-  },
   // app
   {
     path: '/',
